@@ -1,7 +1,7 @@
 import React from 'react';
 import style from './style.css';
 
-export defaut function Elipse() {
+export default function Elipse() {
   return(
   <>
   <h1>Elipse</h1>
