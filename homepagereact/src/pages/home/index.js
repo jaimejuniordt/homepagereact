@@ -7,8 +7,16 @@ import Elipse from '../../components/Elipse';
 function Home() {
   return(
     <>
-    <h1>Home</h1>
-    <Elipse/>    
+   <header className='container'>
+    {/* Elipse -> Circle */}
+    <div className='elipse-container'>
+      <div className='elipse-left'></div>
+      <Elipse/>
+
+      <div className='elipse-right'></div>
+    </div>
+    
+    </header>   
     </>
   )
 }
