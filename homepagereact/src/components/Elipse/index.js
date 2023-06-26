@@ -4,7 +4,7 @@ import style from './style.css';
 export default function Elipse() {
   return(
   <>
-  <div></div>
+  <div className={'circle'}></div>
   </>
   )
 }
