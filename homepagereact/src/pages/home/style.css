@@ -6,3 +6,14 @@ header.container{
   position: relative;
  
 }
+
+header.container div.elipse-container{
+  width: 90%;
+  height: 250px;
+  margin: 0 auto;
+
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+}
