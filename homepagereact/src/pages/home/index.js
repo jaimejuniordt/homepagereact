@@ -11,7 +11,7 @@ function Home() {
     {/* Elipse -> Circle */}
     <div className='elipse-container'>
       <div className='elipse-left'></div>
-      <Elipse/>
+      <Elipse size={120} opacity={0.8} style={} />
 
       <div className='elipse-right'></div>
     </div>
