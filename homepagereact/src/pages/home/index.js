@@ -1,7 +1,7 @@
 import React from "react";
 
 //MY IMPORTS
-import styles from "./style.css";
+import styles from "./styles.css";
 import Elipse from "../../components/Elipse";
 
 function Home() {

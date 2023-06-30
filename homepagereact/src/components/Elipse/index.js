@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './style.css';
+import styles from './styles.css';
 
 export default function Elipse({size, opacity, styles}) {
   const circleStyle = {
