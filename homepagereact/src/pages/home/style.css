@@ -28,11 +28,11 @@ header.container div.elipse-container div.elipse-left {
   height: 250px;
   display: flex;
   flex-flow: row;
-  position: absolute;
+  position: relative;
 }
 
 header.container div.elipse-container div.elipse-left div.circle-left-one{
-  position: relative;
+  position: absolute;
   left: 0;
   bottom: 35px;
 }

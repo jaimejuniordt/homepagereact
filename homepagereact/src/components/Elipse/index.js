@@ -5,14 +5,14 @@ export default function Elipse({size, opacity, styles}) {
   const circleStyle = {
     width: '${size}px',
     height:'${size}px',
-    opacity: opacity ,
+    opacity: opacity,
   }
 
 
 
   return(
  
-  <div styles={circleStyle} className={'circle ${styles}'}></div>
+  <div style={circleStyle} className={'circle ${styles}'}></div>
  
   );
 }
