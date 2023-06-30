@@ -12,7 +12,7 @@ export default function Elipse({size, opacity, style}) {
 
   return(
   <>
-  <div className={'circle $ {style} '}></div>
+  <div className='circle $ {style} '></div>
   </>
   )
 }
