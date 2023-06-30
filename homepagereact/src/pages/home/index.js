@@ -1,24 +1,31 @@
 import React from "react";
 
 //MY IMPORTS
-import style from "./style.css";
+import styles from "./style.css";
 import Elipse from "../../components/Elipse";
 
 function Home() {
   return (
     <>
       <header className="container">
-        {/* Elipse -> Circle */}
         <div className="elipse-container">
           <div className="elipse-left">
-            <Elipse size={120} opacity={1} style={"circle-left-one"} />
-            <Elipse size={180} opacity={0.4} style={"circle-left-two"} />
+            <Elipse size={120} opacity={0.2} styles={"circle-left-one"} />
+            <Elipse size={120} opacity={0.4} styles={"circle-left-two"} />
+            <Elipse size={180} opacity={0.6} styles={"circle-left-three"} />
           </div>
 
-          <div className="elipse-right"></div>
+          <div className="elipse-right">
+            <Elipse size={120} opacity={0.2} styles={"circle-right-one"} />
+            <Elipse size={120} opacity={0.5} styles={"circle-right-two"} />
+            <Elipse size={180} opacity={0.6} styles={"circle-right-three"}/>
+            <Elipse size={180} opacity={0.98} styles={"circle-right-four"} />
+            </div>
+
+          
         </div>
       </header>
     </>
-  );
+  )
 }
 export default Home;

@@ -1,18 +1,18 @@
 import React from 'react';
-import style from './style.css';
+import styles from './style.css';
 
-export default function Elipse({size, opacity, style}) {
+export default function Elipse({size, opacity, styles}) {
   const circleStyle = {
-    width: '${size} px',
-    height:'${size} px',
+    width: '${size}px',
+    height:'${size}px',
     opacity: opacity ,
   }
 
 
 
   return(
-  <>
-  <div className={'circle $ {style} '}></div>
-  </>
-  )
+ 
+  <div styles={circleStyle} className={'circle ${styles}'}></div>
+ 
+  );
 }

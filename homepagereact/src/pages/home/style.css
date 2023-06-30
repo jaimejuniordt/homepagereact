@@ -15,6 +15,8 @@ header.container div.elipse-container {
   flex-flow: row wrap;
   justify-content: space-between;
   align-items: center;
+
+  background-color: aqua ;
 }
 
 /*_________________________________________*/
@@ -28,3 +30,58 @@ header.container div.elipse-container div.elipse-left {
   flex-flow: row;
   position: absolute;
 }
+
+header.container div.elipse-container div.elipse-left div.circle-left-one{
+  position: relative;
+  left: 0;
+  bottom: 35px;
+}
+
+header.container div.elipse-container div.elipse-left div.circle-left-two{
+  position: absolute;
+  left: 50;
+  top: 25px;
+}
+
+header.container div.elipse-container div.elipse-left div.circle-left-three{
+  position: absolute;
+  left: 140px;
+  top: 35px;
+}
+
+/*_________________________________________*/
+/*              ELIPSE RIGHT                */
+/*_________________________________________*/
+
+header.container div.elipse-container div.elipse-right {
+  max-width: 600px;
+  height: 250px;
+  display: flex;
+  flex-flow: row;
+  position: absolute;
+}
+
+header.container div.elipse-container div.elipse-right div.circle-right-one{
+  position: absolute;
+  right: 350px;
+  bottom: 20px;
+}
+
+header.container div.elipse-container div.elipse-right div.circle-right-two{
+  position: absolute;
+  right: 310px;
+  top: 22px;
+}
+
+header.container div.elipse-container div.elipse-right div.circle-right-three{
+  position: absolute;
+  right: 190px;
+  bottom: 0px;
+}
+
+header.container div.elipse-container div.elipse-right div.circle-right-four{
+  position: absolute;
+  right: 130px;
+  bottom: 15px;
+}
+
