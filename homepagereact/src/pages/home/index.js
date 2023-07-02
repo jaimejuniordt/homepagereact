@@ -24,7 +24,9 @@ function Home() {
 
             <div className='information-container'>
               <div className='information-left'>
-                
+                <div className='information-text'>
+                  
+                </div>
               </div>
 
             </div>
