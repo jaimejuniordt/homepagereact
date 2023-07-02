@@ -42,9 +42,12 @@ function Home() {
 
               <p>jojvjiojoiuiosjsvjoisjoif</p>
             </div>
+            <div className='information-img'></div>
           </div>
 
-          <div className="information-right"></div>
+          <div className="information-right">
+            
+          </div>
         </div>
       </header>
     </>
