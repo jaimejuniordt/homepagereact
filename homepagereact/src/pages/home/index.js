@@ -50,9 +50,11 @@ function Home() {
                   <p>
                     jojvjiojoiuiosjsvjoisjoif
                   </p>
-                  
+
                 </div>
               </div>
+
+              <div className='information-right'></div>
 
             </div>
 
