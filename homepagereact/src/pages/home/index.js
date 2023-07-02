@@ -25,6 +25,31 @@ function Home() {
             <div className='information-container'>
               <div className='information-left'>
                 <div className='information-text'>
+                  <h3>Descubra</h3>
+                  <h1>
+                    Transforme sua alimentação e <br/>
+                    tenha mais qualidade de vida!
+                  </h1>
+
+                  <p>
+                    egegveghthetththhtthhth
+                  </p>
+
+                  <h4>
+                    Não perca a oportunidade de mudar seus hábitos
+                  </h4>
+
+                  <p>
+                    jojvjiojoiuiosjsvjoisjoif
+                  </p>
+
+                  <p>
+                    jojvjiojoiuiosjsvjoisjoif
+                  </p>
+
+                  <p>
+                    jojvjiojoiuiosjsvjoisjoif
+                  </p>
                   
                 </div>
               </div>
