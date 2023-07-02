@@ -21,30 +21,30 @@ function Home() {
             <Elipse size={180} opacity={0.6} styles={"circle-right-three"} />
             <Elipse size={180} opacity={0.98} styles={"circle-right-four"} />
           </div>
+        </div>
 
-          <div className="information-container">
-            <div className="information-left">
-              <div className="information-text">
-                <h3>Descubra</h3>
-                <h1>
-                  Transforme sua alimentação e <br />
-                  tenha mais qualidade de vida!
-                </h1>
+        <div className="information-container">
+          <div className="information-left">
+            <div className="information-text">
+              <h3>Descubra</h3>
+              <h1>
+                Transforme sua alimentação e <br />
+                tenha mais qualidade de vida!
+              </h1>
 
-                <p>egegveghthetththhtthhth</p>
+              <p>egegveghthetththhtthhth</p>
 
-                <h4>Não perca a oportunidade de mudar seus hábitos</h4>
+              <h4>Não perca a oportunidade de mudar seus hábitos</h4>
 
-                <p>jojvjiojoiuiosjsvjoisjoif</p>
+              <p>jojvjiojoiuiosjsvjoisjoif</p>
 
-                <p>jojvjiojoiuiosjsvjoisjoif</p>
+              <p>jojvjiojoiuiosjsvjoisjoif</p>
 
-                <p>jojvjiojoiuiosjsvjoisjoif</p>
-              </div>
+              <p>jojvjiojoiuiosjsvjoisjoif</p>
             </div>
-
-            <div className="information-right"></div>
           </div>
+
+          <div className="information-right"></div>
         </div>
       </header>
     </>
