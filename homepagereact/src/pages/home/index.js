@@ -22,6 +22,13 @@ function Home() {
             <Elipse size={180} opacity={0.98} styles={"circle-right-four"} />
             </div>
 
+            <div className='information-container'>
+              <div className='information-left'>
+                
+              </div>
+
+            </div>
+
           
         </div>
       </header>
