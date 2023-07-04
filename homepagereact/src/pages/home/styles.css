@@ -100,17 +100,26 @@ header.container div.information-container div.information-left{
   flex-direction: column;
   justify-content: left;
 
-  max-width: 500px;
+  max-width: 750px;
+  background-color: aqua;
 }
 
 header.container div.information-container div.information-left div.information-text{
   max-width: 90%;
+  
 
 }
 
 header.container div.information-container div.information-left div.information-text h3{
   color: #6f6f6f;
-  font-size: max(17px, 1.6vw);
+  font-size: max(17px, 1.1vw);
+}
+
+header.container div.information-container div.information-left div.information-text h1{
+  font-size: max(22px, 2.5vw);
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  
 }
 
 
