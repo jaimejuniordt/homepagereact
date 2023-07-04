@@ -44,7 +44,7 @@ function Home() {
               <p>jojvjiojoiuiosjsvjoisjoif</p>
             </div>
             <div className='information-img'></div>
-                <img src="book" alt="" />
+                <img src={book} alt="" />
           </div>
 
           <div className="information-right">
