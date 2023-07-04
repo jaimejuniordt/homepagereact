@@ -3,8 +3,8 @@ import styles from './styles.css';
 
 export default function Elipse({size, opacity, styles}) {
   const circleStyle = {
-    width: '${size}px',
-    height:'${size}px',
+    width: `${size}px`,
+    height:`${size}px`,
     opacity: opacity,
   }
 
@@ -12,7 +12,7 @@ export default function Elipse({size, opacity, styles}) {
 
   return(
  
-  <div style={circleStyle} className={'circle ${styles}'}></div>
+  <div style={circleStyle} className={`circle ${styles}`}></div>
  
   );
 }

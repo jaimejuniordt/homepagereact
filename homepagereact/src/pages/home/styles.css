@@ -58,6 +58,7 @@ header.container div.elipse-container div.elipse-right {
   display: flex;
   flex-flow: row;
   position: absolute;
+  right: 0;
 }
 
 header.container div.elipse-container div.elipse-right div.circle-right-one{
@@ -139,8 +140,8 @@ header.container div.information-container div.information-left div.information-
 }
 
 header.container div.information-container div.information-left div.information-img{
-  max-width: 250px;
-  max-height: 350px;
+  width: 200px;
+  height: 300px;
 }
 
 header.container div.information-container div.information-left div.information-img img{

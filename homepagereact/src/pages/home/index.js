@@ -29,8 +29,7 @@ function Home() {
             <div className="information-text">
               <h3>Descubra</h3>
               <h1>
-                Transforme sua alimentação e 
-                tenha mais qualidade de vida!
+                Transforme sua alimentação e tenha mais qualidade de vida!
               </h1>
 
               <p>egegveghthetththhtthhth</p>
@@ -43,18 +42,16 @@ function Home() {
 
               <p>jojvjiojoiuiosjsvjoisjoif</p>
             </div>
-            <div className='information-img'></div>
-                <img src={book} alt="" />
+
+            <div className="information-img">
+              <img src={book} alt="" />
+            </div>
           </div>
 
           <div className="information-right">
             <form>
-              <div className='form-input'>
-               
-
-              </div>
+              <div className="form-input"></div>
             </form>
-            
           </div>
         </div>
       </header>
