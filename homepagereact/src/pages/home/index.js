@@ -52,17 +52,17 @@ function Home() {
             <form>
 
               <div className="form-input">
-                <input type="text" className='form-input' id='firstName' />
+                <input type="text" className='input' id='firstName' />
                 <label htmlFor='firstName' className='label-input'> Primeiro nome*</label>
               </div>
 
               <div className="form-input">
-                <input type="text" className='form-input' id='lastName' />
+                <input type="text" className='input' id='lastName' />
                 <label htmlFor='lastName' className='label-input'> Sobrenome*</label>
               </div>
 
               <div className="form-input">
-                <input type="text" className='form-input' id='email' />
+                <input type="text" className='input' id='email' />
                 <label htmlFor='email' className='label-input'> E-mail*</label>
               </div> 
 
@@ -81,6 +81,8 @@ function Home() {
                 <input type="radio" id='formNo' name='option' />
                 <label htmalFor='formNo'>Não, estou bem obrigado!</label>                
               </div>
+
+              <button className='form-button'>Download Aulas</button>
 
 
 
