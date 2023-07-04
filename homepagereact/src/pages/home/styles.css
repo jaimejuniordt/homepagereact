@@ -84,10 +84,14 @@ header.container div.elipse-container div.elipse-right div.circle-right-four{
   bottom: 15px;
 }
 
+/*_________________________________________*/
+/*              Informações e Form         */
+/*_________________________________________*/
+
 header.container div.information-container{
   width: 100%;
   padding-bottom: 5rem;
-  margin-top: -2.5;
+  margin-top: -2.5rem;
 
   display: flex;
   flex-flow: row wrap;
@@ -100,8 +104,8 @@ header.container div.information-container div.information-left{
   flex-direction: column;
   justify-content: left;
 
-  max-width: 750px;
-  background-color: aqua;
+  max-width: 700px;
+  
 }
 
 header.container div.information-container div.information-left div.information-text{
@@ -121,6 +125,40 @@ header.container div.information-container div.information-left div.information-
   margin-bottom: 1rem;
   
 }
+
+header.container div.information-container div.information-left div.information-text h4{
+  max-width: 95%;
+  margin-bottom: 1.5rem;
+  font-size: (16px, 1.2vw);
+}
+
+header.container div.information-container div.information-left div.information-text p{
+  max-width: 95%;
+  margin-bottom: 1.5rem;
+  font-weight: 300;
+}
+
+header.container div.information-container div.information-left div.information-img{
+  max-width: 250px;
+  max-height: 350px;
+}
+
+header.container div.information-container div.information-left div.information-img img{
+  max-width: 100%;
+}
+
+header.container div.information-container div.information-right{
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  margin-top: 5.2rem;
+}
+
+
+
+
+
+
 
 
 

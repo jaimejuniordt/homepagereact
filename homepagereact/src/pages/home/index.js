@@ -29,7 +29,7 @@ function Home() {
             <div className="information-text">
               <h3>Descubra</h3>
               <h1>
-                Transforme sua alimentação e <br />
+                Transforme sua alimentação e 
                 tenha mais qualidade de vida!
               </h1>
 
@@ -48,6 +48,12 @@ function Home() {
           </div>
 
           <div className="information-right">
+            <form>
+              <div className='form-input'>
+               
+
+              </div>
+            </form>
             
           </div>
         </div>
