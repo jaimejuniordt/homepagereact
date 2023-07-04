@@ -16,8 +16,7 @@ header.container div.elipse-container {
   justify-content: space-between;
   align-items: center;
 
-  background-color: aqua ;
-}
+ }
 
 /*_________________________________________*/
 /*              ELIPSE LEFT                */
@@ -84,4 +83,35 @@ header.container div.elipse-container div.elipse-right div.circle-right-four{
   right: 130px;
   bottom: 15px;
 }
+
+header.container div.information-container{
+  width: 100%;
+  padding-bottom: 5rem;
+  margin-top: -2.5;
+
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+
+}
+
+header.container div.information-container div.information-left{
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+
+  max-width: 500px;
+}
+
+header.container div.information-container div.information-left div.information-text{
+  max-width: 90%;
+
+}
+
+header.container div.information-container div.information-left div.information-text h3{
+  color: #6f6f6f;
+  font-size: max(17px, 1.6vw);
+}
+
+
 
