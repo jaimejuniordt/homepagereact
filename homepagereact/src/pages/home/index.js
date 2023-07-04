@@ -50,7 +50,40 @@ function Home() {
 
           <div className="information-right">
             <form>
-              <div className="form-input"></div>
+
+              <div className="form-input">
+                <input type="text" className='form-input' id='firstName' />
+                <label htmlFor='firstName' className='label-input'> Primeiro nome*</label>
+              </div>
+
+              <div className="form-input">
+                <input type="text" className='form-input' id='lastName' />
+                <label htmlFor='lastName' className='label-input'> Sobrenome*</label>
+              </div>
+
+              <div className="form-input">
+                <input type="text" className='form-input' id='email' />
+                <label htmlFor='email' className='label-input'> E-mail*</label>
+              </div> 
+
+              <div className='form-text'>
+                <span>
+                  Inscreva-se para receber em primeira mão as melhores aulas que farão você realmente aprender Português.
+                </span>
+              </div>
+
+              <div className='form-enquete'>
+                <input type="radio" id='formYes' name='option' />
+                <label htmalFor='formYes'>Sim, eu quero me inscrever!</label>                
+              </div>
+
+              <div className='form-enquete'>
+                <input type="radio" id='formNo' name='option' />
+                <label htmalFor='formNo'>Não, estou bem obrigado!</label>                
+              </div>
+
+
+
             </form>
           </div>
         </div>
