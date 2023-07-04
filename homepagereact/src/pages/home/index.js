@@ -3,7 +3,7 @@ import React from "react";
 //MY IMPORTS
 import styles from "./styles.css";
 import Elipse from "../../components/Elipse";
-import livro from '../../image/book'
+import book from "../../image/book.jpg";
 
 function Home() {
   return (
@@ -44,7 +44,7 @@ function Home() {
               <p>jojvjiojoiuiosjsvjoisjoif</p>
             </div>
             <div className='information-img'></div>
-                <img src="book" alt="imagem livro" />
+                <img src="book" alt="" />
           </div>
 
           <div className="information-right">
