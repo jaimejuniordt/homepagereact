@@ -1,0 +1,9 @@
+/*_________________________*/
+/*      ELIPSE LEFT        */
+/*_________________________*/
+
+@media(max-width:900px){
+  header.container div.elipse-container div.elipse-left{
+    display: none;
+  }
+}

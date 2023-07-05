@@ -1,11 +1,22 @@
-import React from "react";
+import React, {useState, useEffect} from "react";
 
 //MY IMPORTS
 import styles from "./styles.css";
+import mobile from '../mobile.css';
 import Elipse from "../../components/Elipse";
 import book from "../../image/book.jpg";
 
+
+
 function Home() {
+  const [size, setSize]= useState(window.innerWidth);  
+  useEffect(() => {
+    windowSize();
+  }, [] );
+
+  function windowSize() {
+    setSize(window.innerWidth);    
+  }
   return (
     <>
       <header className="container">
