@@ -17,7 +17,7 @@ function Home() {
   function windowSize(){
     setSize(window.innerWidth);    
   }
-  
+
   return (
     <>
       <header className="container">
@@ -102,6 +102,15 @@ function Home() {
           </div>
         </div>
       </header>
+
+      <main>
+        <section className='services'>
+          <span>
+            O método de ensino do prof. Jota J é o mais prático possível. Ele , através de pesquisas, desenvolveu um jeito de ensinar que elimina a maior parte das ditas regras. Como sua aula de "Crase". O estudante aprende uma maneira que não precisa decorar os mais de 10 casos de crase obrigatória, sem falar dos casos de crase facultativa. Seu método prático, cativa o aluno e mostra que Português não é um "bicho de 7 cabeças", tornando assim, nossa Língua Portuguesa agradável de ser estudada.
+          </span>
+        </section>
+
+      </main>
     </>
   );
 }

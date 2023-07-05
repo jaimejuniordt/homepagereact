@@ -231,6 +231,32 @@ header.container div.information-container div.information-right form div.form-i
   opacity: 0.8;
  }
 
+ /*_________________________________________*/
+/*              Last section                */
+/*              White part                  */
+/*_________________________________________*/
+
+main{
+  width: 100%;
+  padding: 20px 10px;
+  background-color: #FFF;
+}
+
+main section.services{
+  max-width: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 4rem auto;
+}
+
+main section.services span{
+  font-size: max(18px, 0.9vw);
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  
+}
  
 
 
