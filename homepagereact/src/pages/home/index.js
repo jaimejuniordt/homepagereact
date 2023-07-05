@@ -12,11 +12,12 @@ function Home() {
   const [size, setSize]= useState(window.innerWidth);  
   useEffect(() => {
     windowSize();
-  }, [] );
+  }, []);
 
-  function windowSize() {
+  function windowSize(){
     setSize(window.innerWidth);    
   }
+  
   return (
     <>
       <header className="container">

@@ -34,5 +34,7 @@
 /*_________________________*/
 
 @media(max-width:1000px){
-  
+  header.container div.information-container{
+    padding: 0 1rem;
+  }
 }
