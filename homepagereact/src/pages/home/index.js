@@ -14,8 +14,7 @@ function Home() {
     windowSize();
   }, []);
 
-  function windowSize(){
-    setSize(window.innerWidth);    
+    
   }
 
   return (
@@ -112,7 +111,7 @@ function Home() {
 
         <section className='social-media'>
           <div className='contact'>
-           
+          <a href='' target='blank'>
 
             </a>
           </div>
