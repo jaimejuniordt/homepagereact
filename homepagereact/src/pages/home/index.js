@@ -112,7 +112,7 @@ function Home() {
 
         <section className='social-media'>
           <div className='contact'>
-            <a href='' target='blank'>
+           
 
             </a>
           </div>
