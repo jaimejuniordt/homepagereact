@@ -14,7 +14,8 @@ function Home() {
     windowSize();
   }, []);
 
-    
+  function windowSize(){
+    setSize(window.innerWidth);    
   }
 
   return (
