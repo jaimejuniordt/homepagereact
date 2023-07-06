@@ -110,7 +110,13 @@ function Home() {
           </span>
         </section>
 
-        
+        <section className='social-media'>
+          <div className='contact'>
+            <a href='' target='blank'>
+
+            </a>
+          </div>
+        </section>
 
       </main>
     </>
