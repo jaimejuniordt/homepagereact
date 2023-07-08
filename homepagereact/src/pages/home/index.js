@@ -151,6 +151,10 @@ function Home() {
           </div>
         </section>
       </main>
+
+      <footer>
+        <a href={"3"} target='blank'>SAIBA MAIS</a>
+      </footer>
     </>
   );
 }

@@ -50,7 +50,18 @@
 
   main section.social-media div.contact a ion-icon{
     font-size: 3rem;
-    
+
+  }
+
+}
+
+/*________________________________________*/
+/*             FOOTER                      */
+/*_________________________________________*/
+
+@media(max-width:415px){
+  footer a{
+    padding: 1rem 5rem;
   }
 
 }
