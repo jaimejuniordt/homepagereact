@@ -132,7 +132,7 @@ function Home() {
           <div className="contact">
             <a href="instagram" target="blank">
               <ion-icon name="logo-instagram"></ion-icon>
-              <span>@Professor JotaJ</span>
+              <span>professorjotaJ</span>
             </a>
           </div>
 

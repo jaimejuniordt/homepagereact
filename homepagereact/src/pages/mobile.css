@@ -38,3 +38,19 @@
     padding: 0 1rem;
   }
 }
+
+/*_________________________*/
+/*  SECTION SOCIAL MEDIA   */
+/*_________________________*/
+
+@media(max-width:670px){
+  main section.social-media div.contact a span{
+    display: none;
+  }
+
+  main section.social-media div.contact a ion-icon{
+    font-size: 3rem;
+    
+  }
+
+}
