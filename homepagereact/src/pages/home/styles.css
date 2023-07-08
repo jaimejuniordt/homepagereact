@@ -187,12 +187,14 @@ header.container div.information-container div.information-right form div.form-i
   width: 90%;
   margin-bottom: 1.5rem;
   
+  
  
 }
 
 header.container div.information-container div.information-right form div.form-input imput{
  height: 40px;
  margin-bottom: 5px;
+ 
  
  
  
@@ -211,7 +213,6 @@ header.container div.information-container div.information-right form div.form-i
   margin-bottom: 1.2rem;
   
   
-  
 
  }
 
@@ -226,6 +227,7 @@ header.container div.information-container div.information-right form div.form-i
   margin-bottom: 1.2rem;
   display: flex;
   flex-flow: row wrap;
+  align-items: center;
   
  
  }

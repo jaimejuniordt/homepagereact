@@ -46,22 +46,22 @@ function Home() {
             <div className="information-text">
               <h3>Descubra</h3>
               <h1>
-                Transforme sua alimentação e tenha mais qualidade de vida!
+                O melhor curso de Língua Portuguesa
               </h1>
 
-              <p>egegveghthetththhtthhth</p>
+              <p>Super Prático</p>
 
               <h4>Não perca a oportunidade de mudar seus hábitos</h4>
 
-              <p>jojvjiojoiuiosjsvjoisjoif</p>
+              <p>Gramática</p>
 
-              <p>jojvjiojoiuiosjsvjoisjoif</p>
+              <p>Redação e Textos</p>
 
-              <p>jojvjiojoiuiosjsvjoisjoif</p>
+              <p>Literatura</p>
             </div>
 
             <div className="information-img">
-              <img src={book} alt="" />
+              <img src={book} alt="imagem book" />
             </div>
           </div>
 
@@ -69,9 +69,7 @@ function Home() {
             <form>
               <div className="form-input">
                 <input type="text" className="input" id="firstName" />
-                <label htmlFor="firstName" className="label-input">
-                  {" "}
-                  Primeiro nome*
+                <label htmlFor="firstName" className="label-input">Primeiro nome*
                 </label>
               </div>
 
