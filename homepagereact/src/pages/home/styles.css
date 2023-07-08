@@ -15,8 +15,7 @@ header.container div.elipse-container {
   flex-flow: row wrap;
   justify-content: space-between;
   align-items: center;
-
- }
+}
 
 /*_________________________________________*/
 /*              ELIPSE LEFT                */
@@ -30,19 +29,19 @@ header.container div.elipse-container div.elipse-left {
   position: relative;
 }
 
-header.container div.elipse-container div.elipse-left div.circle-left-one{
+header.container div.elipse-container div.elipse-left div.circle-left-one {
   position: absolute;
   left: 0;
   bottom: 35px;
 }
 
-header.container div.elipse-container div.elipse-left div.circle-left-two{
+header.container div.elipse-container div.elipse-left div.circle-left-two {
   position: absolute;
   left: 50;
   top: 25px;
 }
 
-header.container div.elipse-container div.elipse-left div.circle-left-three{
+header.container div.elipse-container div.elipse-left div.circle-left-three {
   position: absolute;
   left: 140px;
   top: 35px;
@@ -61,25 +60,25 @@ header.container div.elipse-container div.elipse-right {
   right: 0;
 }
 
-header.container div.elipse-container div.elipse-right div.circle-right-one{
+header.container div.elipse-container div.elipse-right div.circle-right-one {
   position: absolute;
   right: 350px;
   bottom: 20px;
 }
 
-header.container div.elipse-container div.elipse-right div.circle-right-two{
+header.container div.elipse-container div.elipse-right div.circle-right-two {
   position: absolute;
   right: 310px;
   top: 22px;
 }
 
-header.container div.elipse-container div.elipse-right div.circle-right-three{
+header.container div.elipse-container div.elipse-right div.circle-right-three {
   position: absolute;
   right: 190px;
   bottom: 0px;
 }
 
-header.container div.elipse-container div.elipse-right div.circle-right-four{
+header.container div.elipse-container div.elipse-right div.circle-right-four {
   position: absolute;
   right: 130px;
   bottom: 15px;
@@ -89,7 +88,7 @@ header.container div.elipse-container div.elipse-right div.circle-right-four{
 /*              Informações e Form         */
 /*_________________________________________*/
 
-header.container div.information-container{
+header.container div.information-container {
   width: 100%;
   padding-bottom: 5rem;
   margin-top: -2.5rem;
@@ -97,78 +96,90 @@ header.container div.information-container{
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
-  
-
 }
 
-header.container div.information-container div.information-left{
+header.container div.information-container div.information-left {
   display: flex;
   flex-direction: column;
   justify-content: left;
 
   max-width: 700px;
-  
-  
 }
 
-header.container div.information-container div.information-left div.information-text{
-  max-width: 90%;  
-  
-
+header.container
+  div.information-container
+  div.information-left
+  div.information-text {
+  max-width: 90%;
 }
 
-header.container div.information-container div.information-left div.information-text h3{
+header.container
+  div.information-container
+  div.information-left
+  div.information-text
+  h3 {
   color: #6f6f6f;
   font-size: max(17px, 1.1vw);
 }
 
-header.container div.information-container div.information-left div.information-text h1{
+header.container
+  div.information-container
+  div.information-left
+  div.information-text
+  h1 {
   font-size: max(22px, 2.5vw);
   margin-top: 2rem;
   margin-bottom: 1rem;
-  
-  
 }
 
-header.container div.information-container div.information-left div.information-text h4{
+header.container
+  div.information-container
+  div.information-left
+  div.information-text
+  h4 {
   max-width: 95%;
   margin-bottom: 1.5rem;
   font-size: (16px, 1.2vw);
 }
 
-header.container div.information-container div.information-left div.information-text p{
+header.container
+  div.information-container
+  div.information-left
+  div.information-text
+  p {
   max-width: 95%;
   margin-bottom: 1.5rem;
   font-weight: 300;
-  
-  
 }
 
-header.container div.information-container div.information-left div.information-img{
+header.container
+  div.information-container
+  div.information-left
+  div.information-img {
   width: 200px;
   height: 300px;
-  
-  
 }
 
-header.container div.information-container div.information-left div.information-img img{
+header.container
+  div.information-container
+  div.information-left
+  div.information-img
+  img {
   max-width: 100%;
-  
 }
 
 /*   right          */
 
-header.container div.information-container div.information-right{
+header.container div.information-container div.information-right {
   display: flex;
   flex-direction: column;
   max-width: 600px;
   margin-top: 5.2rem;
-  
 }
 
-header.container div.information-container div.information-right form{
+header.container div.information-container div.information-right form {
   max-width: 100%;
-  background-color: #FFF;
+  background-color: #fff;
   border-radius: 10px;
   padding: 40px 15px;
 
@@ -176,68 +187,88 @@ header.container div.information-container div.information-right form{
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  
-  
-
 }
 
-header.container div.information-container div.information-right form div.form-input{
+header.container
+  div.information-container
+  div.information-right
+  form
+  div.form-input {
   display: flex;
   flex-direction: column;
   width: 90%;
   margin-bottom: 1.5rem;
-  
-  
- 
 }
 
-header.container div.information-container div.information-right form div.form-input imput{
- height: 40px;
- margin-bottom: 5px;
- 
- 
- 
- 
- }
+header.container
+  div.information-container
+  div.information-right
+  form
+  div.form-input
+  input {
+  height: 40px;
+  margin-bottom: 5px;
+}
 
- header.container div.information-container div.information-right form div.form-input label.label-input{
+header.container
+  div.information-container
+  div.information-right
+  form
+  div.form-input
+  label.label-input {
   font-size: max(16px, 0.9vw);
-  font-family:'Open Sans', sans-serif ;
+  font-family: "Open Sans", sans-serif;
   font-weight: 600;
- }
+}
 
- header.container div.information-container div.information-right form div.form-text{
+header.container
+  div.information-container
+  div.information-right
+  form
+  div.form-text {
   max-width: 90%;
   text-align: left;
   margin-top: 2rem;
   margin-bottom: 1.2rem;
-  
-  
+}
 
- }
-
- header.container div.information-container div.information-right form div.form-text span{
+header.container
+  div.information-container
+  div.information-right
+  form
+  div.form-text
+  span {
   font-size: max(15px, 0.9vw);
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 300;
- }
+}
 
- header.container div.information-container div.information-right form div.form-enquete{
+header.container
+  div.information-container
+  div.information-right
+  form
+  div.form-enquete {
   width: 90%;
   margin-bottom: 1.2rem;
   display: flex;
   flex-flow: row wrap;
   align-items: center;
-  
- 
- }
+}
 
- header.container div.information-container div.information-right form div.form-enquete input{
+header.container
+  div.information-container
+  div.information-right
+  form
+  div.form-enquete
+  input {
   margin-right: 5px;
-  
- }
+}
 
- header.container div.information-container div.information-right form button.form-button{
+header.container
+  div.information-container
+  div.information-right
+  form
+  button.form-button {
   width: 60%;
   height: 60px;
   background-color: #3c6401;
@@ -246,31 +277,32 @@ header.container div.information-container div.information-right form div.form-i
   margin-top: 3rem;
   margin-bottom: 3rem;
 
-  color: #FFF;
+  color: #fff;
   font-size: max(16px, 1.1vw);
   font-weight: bold;
-  transition: 0,8s ease-out;
-  
+  transition: 0, 8s ease-out;
+}
 
- }
-
- header.container div.information-container div.information-right form button.form-button:hover{
+header.container
+  div.information-container
+  div.information-right
+  form
+  button.form-button:hover {
   opacity: 0.8;
-  
- }
+}
 
- /*_________________________________________*/
+/*_________________________________________*/
 /*              Last section                */
 /*              White part                  */
 /*_________________________________________*/
 
-main{
+main {
   width: 100%;
   padding: 20px 10px;
-  background-color: #FFF;
+  background-color: #fff;
 }
 
-main section.services{
+main section.services {
   max-width: 800px;
   display: flex;
   align-items: center;
@@ -279,50 +311,47 @@ main section.services{
   margin: 4rem auto;
 }
 
-main section.services span{
+main section.services span {
   font-size: max(18px, 0.9vw);
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: bold;
-  
 }
 
- /*_________________________________________*/
+/*_________________________________________*/
 /*             SECTION SOCIAL MEDIA        */
 /*_________________________________________*/
 
-main section.social-media{
- width: 100%;
- margin-bottom: 5rem;
- margin-top: 1rem;
- display: flex;
- flex-flow: row wrap;
- align-items: center;
- justify-content: center;
+main section.social-media {
+  width: 100%;
+  margin-bottom: 5rem;
+  margin-top: 1rem;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
 }
 
-main section.social-media div.contact{
+main section.social-media div.contact {
   display: flex;
   flex-flow: row wrap;
   margin: 0 1rem;
-
 }
 
-main section.social-media div.contact a{
+main section.social-media div.contact a {
   display: flex;
   flex-flow: row wrap;
-  text-decoration: none;  /* tira sublinhado*/
-
+  text-decoration: none; /* tira sublinhado*/
 }
 
-main section.social-media div.contact a ion-icon{
+main section.social-media div.contact a ion-icon {
   color: blue;
-  font-size: 1.8rem ;
+  font-size: 1.8rem;
   margin-right: 5px;
 }
 
-main section.social-media div.contact a span{
+main section.social-media div.contact a span {
   font-size: max(14px, 0.9vw);
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 300;
   color: black;
 }
@@ -331,9 +360,9 @@ main section.social-media div.contact a span{
 /*             FOOTER                      */
 /*_________________________________________*/
 
-footer{
+footer {
   width: 100%;
-  background-color: #FFF;
+  background-color: #fff;
   padding: 5rem 1rem;
 
   display: flex;
@@ -342,31 +371,20 @@ footer{
   justify-content: center;
 }
 
-footer a{
+footer a {
   text-decoration: none;
   padding: 1.5rem 8rem;
-  border: 1px solid  #000;
+  border: 1px solid #000;
   border-radius: 50px;
   color: #000;
   text-shadow: 2px 2px 4px #494747;
   font-size: max(20px, 1.8vw);
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   box-shadow: 2px 4px #000;
   transition: 0.8s ease-out;
 }
 
-footer a:hover{
+footer a:hover {
   background-color: #3c6401;
-  color: #FFF;
+  color: #fff;
 }
-
-
-
-
-
-
-
-
-
-
-
