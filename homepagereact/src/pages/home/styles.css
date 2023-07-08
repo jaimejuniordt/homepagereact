@@ -97,6 +97,7 @@ header.container div.information-container{
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
+  
 
 }
 
@@ -107,10 +108,11 @@ header.container div.information-container div.information-left{
 
   max-width: 700px;
   
+  
 }
 
 header.container div.information-container div.information-left div.information-text{
-  max-width: 90%;
+  max-width: 90%;  
   
 
 }
@@ -125,6 +127,7 @@ header.container div.information-container div.information-left div.information-
   margin-top: 2rem;
   margin-bottom: 1rem;
   
+  
 }
 
 header.container div.information-container div.information-left div.information-text h4{
@@ -137,22 +140,30 @@ header.container div.information-container div.information-left div.information-
   max-width: 95%;
   margin-bottom: 1.5rem;
   font-weight: 300;
+  
+  
 }
 
 header.container div.information-container div.information-left div.information-img{
   width: 200px;
   height: 300px;
+  
+  
 }
 
 header.container div.information-container div.information-left div.information-img img{
   max-width: 100%;
+  
 }
+
+/*   right          */
 
 header.container div.information-container div.information-right{
   display: flex;
   flex-direction: column;
   max-width: 600px;
   margin-top: 5.2rem;
+  
 }
 
 header.container div.information-container div.information-right form{
@@ -165,6 +176,8 @@ header.container div.information-container div.information-right form{
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  
+  
 
 }
 
@@ -173,11 +186,16 @@ header.container div.information-container div.information-right form div.form-i
   flex-direction: column;
   width: 90%;
   margin-bottom: 1.5rem;
+  
+ 
 }
 
 header.container div.information-container div.information-right form div.form-input imput{
  height: 40px;
  margin-bottom: 5px;
+ 
+ 
+ 
  }
 
  header.container div.information-container div.information-right form div.form-input label.label-input{
@@ -191,6 +209,9 @@ header.container div.information-container div.information-right form div.form-i
   text-align: left;
   margin-top: 2rem;
   margin-bottom: 1.2rem;
+  
+  
+  
 
  }
 
@@ -205,10 +226,13 @@ header.container div.information-container div.information-right form div.form-i
   margin-bottom: 1.2rem;
   display: flex;
   flex-flow: row wrap;
+  
+ 
  }
 
  header.container div.information-container div.information-right form div.form-enquete input{
   margin-right: 5px;
+  
  }
 
  header.container div.information-container div.information-right form button.form-button{
@@ -224,11 +248,13 @@ header.container div.information-container div.information-right form div.form-i
   font-size: max(16px, 1.1vw);
   font-weight: bold;
   transition: 0,8s ease-out;
+  
 
  }
 
  header.container div.information-container div.information-right form button.form-button:hover{
   opacity: 0.8;
+  
  }
 
  /*_________________________________________*/
