@@ -158,6 +158,7 @@ header.container
   div.information-img {
   width: 200px;
   height: 300px;
+  
 }
 
 header.container
@@ -166,6 +167,14 @@ header.container
   div.information-img
   img {
   max-width: 100%;
+  
+}
+
+div.information-img{
+  width: thick;  
+  border: solid;
+    
+
 }
 
 /*   right          */

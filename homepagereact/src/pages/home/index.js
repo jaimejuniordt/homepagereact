@@ -4,7 +4,7 @@ import React, { useState, useEffect } from "react";
 import styles from "./styles.css";
 import mobile from "../mobile.css";
 import Elipse from "../../components/Elipse";
-import book from "../../image/book.jpg";
+import book from "../../image/jj2.jpg";
 
 function Home() {
   const [size, setSize] = useState(window.innerWidth);
