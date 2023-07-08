@@ -75,23 +75,19 @@ function Home() {
 
               <div className="form-input">
                 <input type="text" className="input" id="lastName" />
-                <label htmlFor="lastName" className="label-input">
-                  {" "}
-                  Sobrenome*
+                <label htmlFor="lastName" className="label-input">Sobrenome*
                 </label>
               </div>
 
               <div className="form-input">
                 <input type="text" className="input" id="email" />
-                <label htmlFor="email" className="label-input">
-                  {" "}
-                  E-mail*
+                <label htmlFor="email" className="label-input">E-mail*
                 </label>
               </div>
 
               <div className="form-text">
                 <span>
-                  Inscreva-se para receber em primeira mão as melhores aulas que
+                  Inscreva-se para receber, em primeira mão, as melhores aulas que
                   farão você realmente aprender Português.
                 </span>
               </div>
