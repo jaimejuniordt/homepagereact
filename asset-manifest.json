@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/homepagereact/static/css/main.9cff5164.css",
+    "main.js": "/homepagereact/static/js/main.3ca094ba.js",
+    "static/media/com_fundo-removebg-preview.png": "/homepagereact/static/media/com_fundo-removebg-preview.abc49433cc652e2d2870.png",
+    "index.html": "/homepagereact/index.html",
+    "main.9cff5164.css.map": "/homepagereact/static/css/main.9cff5164.css.map",
+    "main.3ca094ba.js.map": "/homepagereact/static/js/main.3ca094ba.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9cff5164.css",
+    "static/js/main.3ca094ba.js"
+  ]
+}
